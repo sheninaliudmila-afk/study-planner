@@ -1,0 +1,14 @@
+✔ Whole programme saves modules, counts, weekdays, exam and platform atomically without fabricating lessons (4.812579ms)
+✔ Missing planned lessons stay in denominator, real lessons never counted twice or deleted by a lower count (31.165388ms)
+✔ Editing programme preserves original IDs, notes, steps, links, archives, existing goal and time entries (10.623791ms)
+✔ Invalid modules, dates, URLs, counts, collisions and weekdays reject with original state unchanged (1.529531ms)
+✔ Optional metadata remains backwards compatible and survives JSON and merge (3.098351ms)
+✔ Course goal cannot reach100 until the reserved programme is filled (0.727805ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 58.408357

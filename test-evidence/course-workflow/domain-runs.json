@@ -1,0 +1,74 @@
+[
+  {
+    "timezone": "UTC",
+    "suite": "test-stage2-domain.cjs",
+    "exitCode": 0,
+    "log": "UTC-test-stage2-domain.log"
+  },
+  {
+    "timezone": "UTC",
+    "suite": "test-stage3-domain.cjs",
+    "exitCode": 0,
+    "log": "UTC-test-stage3-domain.log"
+  },
+  {
+    "timezone": "UTC",
+    "suite": "test-course-workflow-domain.cjs",
+    "exitCode": 0,
+    "log": "UTC-test-course-workflow-domain.log"
+  },
+  {
+    "timezone": "Europe/Berlin",
+    "suite": "test-stage2-domain.cjs",
+    "exitCode": 0,
+    "log": "Europe-Berlin-test-stage2-domain.log"
+  },
+  {
+    "timezone": "Europe/Berlin",
+    "suite": "test-stage3-domain.cjs",
+    "exitCode": 0,
+    "log": "Europe-Berlin-test-stage3-domain.log"
+  },
+  {
+    "timezone": "Europe/Berlin",
+    "suite": "test-course-workflow-domain.cjs",
+    "exitCode": 0,
+    "log": "Europe-Berlin-test-course-workflow-domain.log"
+  },
+  {
+    "timezone": "Europe/Moscow",
+    "suite": "test-stage2-domain.cjs",
+    "exitCode": 0,
+    "log": "Europe-Moscow-test-stage2-domain.log"
+  },
+  {
+    "timezone": "Europe/Moscow",
+    "suite": "test-stage3-domain.cjs",
+    "exitCode": 0,
+    "log": "Europe-Moscow-test-stage3-domain.log"
+  },
+  {
+    "timezone": "Europe/Moscow",
+    "suite": "test-course-workflow-domain.cjs",
+    "exitCode": 0,
+    "log": "Europe-Moscow-test-course-workflow-domain.log"
+  },
+  {
+    "timezone": "Australia/Lord_Howe",
+    "suite": "test-stage2-domain.cjs",
+    "exitCode": 0,
+    "log": "Australia-Lord_Howe-test-stage2-domain.log"
+  },
+  {
+    "timezone": "Australia/Lord_Howe",
+    "suite": "test-stage3-domain.cjs",
+    "exitCode": 0,
+    "log": "Australia-Lord_Howe-test-stage3-domain.log"
+  },
+  {
+    "timezone": "Australia/Lord_Howe",
+    "suite": "test-course-workflow-domain.cjs",
+    "exitCode": 0,
+    "log": "Australia-Lord_Howe-test-course-workflow-domain.log"
+  }
+]

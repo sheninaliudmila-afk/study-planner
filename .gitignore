@@ -2,3 +2,12 @@ node_modules/
 test-results/
 test-results-stage2/
 *.zip
+test-results-stage3/
+test-results-course/
+personal-output/
+test-results-program/
+test-results-lectures/
+test-results-notes/
+test-results-schedule/
+test-results-update/
+test-results-grouping/

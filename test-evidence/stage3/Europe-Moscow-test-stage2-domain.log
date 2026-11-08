@@ -1,0 +1,31 @@
+✔ daily recurrence preserves local time across month boundary and includes untilDate (12.202596ms)
+✔ weekly uses ISO Monday/Wednesday and interval from first Monday (0.807605ms)
+✔ custom every three days and every three weeks; interval boundaries (1.724995ms)
+✔ 730-day inclusive limit and 1000-override limit; missing end/weekdays rejected (46.829191ms)
+✔ generation is lazy and pure; switching ranges never mutates or duplicates persisted data (1.063891ms)
+✔ moved occurrence appears only on new date with original immutable key (0.912853ms)
+✔ single cancellation affects no other occurrence; archived parents remain detectable (0.77136ms)
+✔ materialization creates one real session, unique links, preserves key and suppresses virtual duplicate (0.640954ms)
+✔ series edit preserves past completed history, time entries and keys before resetting future overrides (4.217334ms)
+✔ DST: skipped time marked unavailable, repeated hour uses earlier instant; zones without DST remain valid (9.568753ms)
+✔ DST recurrence never shifts civil hour or silently creates valid time for a missing hour (0.676989ms)
+✔ civil date validation rejects nonexistent calendar dates independently from DST (0.173351ms)
+✔ timer elapsed excludes paused intervals and is timestamp based (0.131819ms)
+✔ 12-hour guard persists on pause, clears only after explicit confirmation (0.134362ms)
+✔ time segments reject overlap/non-finite dates, preserve fractional active seconds (0.227502ms)
+✔ plan/fact split midnight as 30/30 minutes and 10/10 active minutes, no double counting (0.385791ms)
+✔ direction progress weights leaf elements, future recurring sessions do not dilute it (1.596261ms)
+✔ malformed recurrence/timer/time import rejected; original state is not mutated (1.201517ms)
+✔ interval range property: concatenating disjoint ranges equals whole generation for 52 intervals (292.28519ms)
+✔ every three weeks uses ISO days and aligns to start week (0.468174ms)
+✔ series edit resets future virtual exclusions but retains real individual sessions (0.788185ms)
+✔ series edit retains past unavailable DST appointments instead of silently dropping them (0.46527ms)
+✔ rounded TimeEntry seconds are distributed across segments without cumulative rounding drift (0.33246ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 390.264031

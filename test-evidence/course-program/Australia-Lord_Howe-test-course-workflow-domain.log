@@ -1,0 +1,16 @@
+✔ Empty course has no progress; empty module remains in denominator and can be marked complete (1.594057ms)
+✔ Bound goal matches course, future plans prevent early completion and time entries do not affect progress (1.580187ms)
+✔ All finite future recurrences count once, including materialized instances (8.855058ms)
+✔ Module and partial task progress, archiving excludes subtree, unrelated course ignored (0.348534ms)
+✔ Course creation creates/reuses an explicit direction container, never chooses unrelated subject (0.393121ms)
+✔ Existing course goal ID and creation time retained; dates and references validate atomically (1.124171ms)
+✔ Full course denominator never rounds incomplete work up to 100 (0.57187ms)
+✔ Personal packager preserves literal HTML/Unicode and original bytes; executable HTML carries no external files (45.379654ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 66.250836

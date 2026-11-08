@@ -1,0 +1,13 @@
+✔ Inclusive duration is timezone-independent across DST, leap year and single-day courses (2.960332ms)
+✔ Additional course/module deadlines survive JSON migration and merge with stable IDs (8.681948ms)
+✔ Malformed/duplicate deadlines rejected without migration of existing records (0.896368ms)
+✔ Agenda combines main deadline, exam, module deadline and additional tasks in chronological order (13.074374ms)
+✔ Agenda includes overdue unfinished tasks and omits completed, archived and out-of-window records (0.560262ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 62.024333

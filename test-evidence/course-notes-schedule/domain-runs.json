@@ -1,0 +1,170 @@
+[
+  {
+    "timezone": "UTC",
+    "suite": "stage2",
+    "exitCode": 0,
+    "log": "UTC-stage2.log"
+  },
+  {
+    "timezone": "UTC",
+    "suite": "stage3",
+    "exitCode": 0,
+    "log": "UTC-stage3.log"
+  },
+  {
+    "timezone": "UTC",
+    "suite": "course-workflow",
+    "exitCode": 0,
+    "log": "UTC-course-workflow.log"
+  },
+  {
+    "timezone": "UTC",
+    "suite": "course-program",
+    "exitCode": 0,
+    "log": "UTC-course-program.log"
+  },
+  {
+    "timezone": "UTC",
+    "suite": "lecture-draft",
+    "exitCode": 0,
+    "log": "UTC-lecture-draft.log"
+  },
+  {
+    "timezone": "UTC",
+    "suite": "course-notes",
+    "exitCode": 0,
+    "log": "UTC-course-notes.log"
+  },
+  {
+    "timezone": "UTC",
+    "suite": "course-schedule",
+    "exitCode": 0,
+    "log": "UTC-course-schedule.log"
+  },
+  {
+    "timezone": "Europe/Moscow",
+    "suite": "stage2",
+    "exitCode": 0,
+    "log": "Europe-Moscow-stage2.log"
+  },
+  {
+    "timezone": "Europe/Moscow",
+    "suite": "stage3",
+    "exitCode": 0,
+    "log": "Europe-Moscow-stage3.log"
+  },
+  {
+    "timezone": "Europe/Moscow",
+    "suite": "course-workflow",
+    "exitCode": 0,
+    "log": "Europe-Moscow-course-workflow.log"
+  },
+  {
+    "timezone": "Europe/Moscow",
+    "suite": "course-program",
+    "exitCode": 0,
+    "log": "Europe-Moscow-course-program.log"
+  },
+  {
+    "timezone": "Europe/Moscow",
+    "suite": "lecture-draft",
+    "exitCode": 0,
+    "log": "Europe-Moscow-lecture-draft.log"
+  },
+  {
+    "timezone": "Europe/Moscow",
+    "suite": "course-notes",
+    "exitCode": 0,
+    "log": "Europe-Moscow-course-notes.log"
+  },
+  {
+    "timezone": "Europe/Moscow",
+    "suite": "course-schedule",
+    "exitCode": 0,
+    "log": "Europe-Moscow-course-schedule.log"
+  },
+  {
+    "timezone": "Europe/Berlin",
+    "suite": "stage2",
+    "exitCode": 0,
+    "log": "Europe-Berlin-stage2.log"
+  },
+  {
+    "timezone": "Europe/Berlin",
+    "suite": "stage3",
+    "exitCode": 0,
+    "log": "Europe-Berlin-stage3.log"
+  },
+  {
+    "timezone": "Europe/Berlin",
+    "suite": "course-workflow",
+    "exitCode": 0,
+    "log": "Europe-Berlin-course-workflow.log"
+  },
+  {
+    "timezone": "Europe/Berlin",
+    "suite": "course-program",
+    "exitCode": 0,
+    "log": "Europe-Berlin-course-program.log"
+  },
+  {
+    "timezone": "Europe/Berlin",
+    "suite": "lecture-draft",
+    "exitCode": 0,
+    "log": "Europe-Berlin-lecture-draft.log"
+  },
+  {
+    "timezone": "Europe/Berlin",
+    "suite": "course-notes",
+    "exitCode": 0,
+    "log": "Europe-Berlin-course-notes.log"
+  },
+  {
+    "timezone": "Europe/Berlin",
+    "suite": "course-schedule",
+    "exitCode": 0,
+    "log": "Europe-Berlin-course-schedule.log"
+  },
+  {
+    "timezone": "America/New_York",
+    "suite": "stage2",
+    "exitCode": 0,
+    "log": "America-New_York-stage2.log"
+  },
+  {
+    "timezone": "America/New_York",
+    "suite": "stage3",
+    "exitCode": 0,
+    "log": "America-New_York-stage3.log"
+  },
+  {
+    "timezone": "America/New_York",
+    "suite": "course-workflow",
+    "exitCode": 0,
+    "log": "America-New_York-course-workflow.log"
+  },
+  {
+    "timezone": "America/New_York",
+    "suite": "course-program",
+    "exitCode": 0,
+    "log": "America-New_York-course-program.log"
+  },
+  {
+    "timezone": "America/New_York",
+    "suite": "lecture-draft",
+    "exitCode": 0,
+    "log": "America-New_York-lecture-draft.log"
+  },
+  {
+    "timezone": "America/New_York",
+    "suite": "course-notes",
+    "exitCode": 0,
+    "log": "America-New_York-course-notes.log"
+  },
+  {
+    "timezone": "America/New_York",
+    "suite": "course-schedule",
+    "exitCode": 0,
+    "log": "America-New_York-course-schedule.log"
+  }
+]
