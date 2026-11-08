@@ -1,3 +1,5 @@
+> Исторический протокол. Текущее уточнение и результаты: [COURSE_NOTES_SCHEDULE_ACCEPTANCE.md](COURSE_NOTES_SCHEDULE_ACCEPTANCE.md).
+
 # Заполненный драфт и лекции — 08.11.2026
 
 Основание: [последнее поручение владельца](requirements/lecture-draft-2026-11-08.md). Ветка `stage3-goals-analytics-settings-2026-11-08`, [PR №2](https://github.com/sheninaliudmila-afk/study-planner/pull/2).

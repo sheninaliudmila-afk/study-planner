@@ -4,11 +4,11 @@
 
 ## Источник требований
 
-Последнее поручение — `requirements/lecture-draft-2026-11-08.md`; аудит `AUDIT_STATUS.md`. Предыдущие уточнения владельца — `requirements/course-program-2026-11-08.md` и `requirements/course-workflow-2026-11-08.md`: интерфейс начинается с курса, цель курса следует полному плану. По остальным вопросам `requirements/tz_study_planner_v3_1.md` имеет приоритет для иерархии и миграции, остальные требования — `requirements/tz.md` и корневой `plan.md`. Исходные handoff и планы сохранены в `docs/history/`; это исторические материалы, а не текущие инструкции о репозитории или готовности.
+Последнее поручение — `requirements/course-notes-schedule-2026-11-08.md`; аудит `AUDIT_STATUS.md`. Предыдущие уточнения владельца — `requirements/course-program-2026-11-08.md` и `requirements/course-workflow-2026-11-08.md`: интерфейс начинается с курса, цель курса следует полному плану. По остальным вопросам `requirements/tz_study_planner_v3_1.md` имеет приоритет для иерархии и миграции, остальные требования — `requirements/tz.md` и корневой `plan.md`. Исходные handoff и планы сохранены в `docs/history/`; это исторические материалы, а не текущие инструкции о репозитории или готовности.
 
 ## Готовый код
 
-Три runtime-файла: index.html, style.css, script.js. Шаги 1–3 реализованы; текущие результаты — LECTURE_DRAFT_ACCEPTANCE.md и test-evidence/lecture-draft/results.json; COURSE_PROGRAM_ACCEPTANCE.md — предыдущее уточнение; COURSE_WORKFLOW_ACCEPTANCE.md — предыдущее уточнение; первоначальный отчёт шага 3 сохранён как история. Протокол шага 2 сохранён как история. Перед изменениями прочитать CURRENT_PROJECT.md. При изменениях обновлять plan.md по факту и прогонять значимую регрессию. Шаг 4 ещё не выполнен.
+Три runtime-файла: index.html, style.css, script.js. Шаги 1–3 реализованы; текущие результаты — COURSE_NOTES_SCHEDULE_ACCEPTANCE.md и test-evidence/course-notes-schedule/results.json; COURSE_PROGRAM_ACCEPTANCE.md — предыдущее уточнение; COURSE_WORKFLOW_ACCEPTANCE.md — предыдущее уточнение; первоначальный отчёт шага 3 сохранён как история. Протокол шага 2 сохранён как история. Перед изменениями прочитать CURRENT_PROJECT.md. При изменениях обновлять plan.md по факту и прогонять значимую регрессию. Шаг 4 ещё не выполнен.
 
 ## Сохранность данных
 

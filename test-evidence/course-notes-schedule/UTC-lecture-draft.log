@@ -1,0 +1,14 @@
+✔ Append programme is pure, preserves earlier records, keeps source numbering and blank dates (6.172954ms)
+✔ Repeated opening is idempotent and respects manual edits and explicit deletion (30.480361ms)
+✔ New draft version adds missing lectures and retains notes, local counts, dates and completion (2.091856ms)
+✔ Screenshot percentages never mark a module done; only manual confirmation reaches100 (0.968476ms)
+✔ Lecture IDs, dangerous URLs and malformed source data rejected without mutating prior state (1.67609ms)
+✔ Lecture notes, optional topic labels and confirmation survive export/migration and safe merge (1.216439ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 52.271825

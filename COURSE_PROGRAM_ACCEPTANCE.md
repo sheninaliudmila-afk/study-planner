@@ -1,3 +1,5 @@
+> Исторический протокол. Текущее уточнение и результаты: [COURSE_NOTES_SCHEDULE_ACCEPTANCE.md](COURSE_NOTES_SCHEDULE_ACCEPTANCE.md).
+
 > Исторический протокол программы курса. Последующее заполнение, лекции и аудит: [LECTURE_DRAFT_ACCEPTANCE.md](LECTURE_DRAFT_ACCEPTANCE.md), [AUDIT_STATUS.md](AUDIT_STATUS.md).
 
 # Программа курса: проверка от 08.11.2026

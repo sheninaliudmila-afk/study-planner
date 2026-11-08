@@ -1,3 +1,5 @@
+> Исторический протокол. Текущее уточнение и результаты: [COURSE_NOTES_SCHEDULE_ACCEPTANCE.md](COURSE_NOTES_SCHEDULE_ACCEPTANCE.md).
+
 > Протокол предыдущего уточнения курса и модулей. Последующее уточнение программы и актуальная регрессия — [COURSE_PROGRAM_ACCEPTANCE.md](COURSE_PROGRAM_ACCEPTANCE.md).
 
 # Курс → модули → занятия: протокол проверки, 08.11.2026

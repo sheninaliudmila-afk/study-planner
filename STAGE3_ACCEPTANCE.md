@@ -1,3 +1,5 @@
+> Исторический протокол. Текущее уточнение и результаты: [COURSE_NOTES_SCHEDULE_ACCEPTANCE.md](COURSE_NOTES_SCHEDULE_ACCEPTANCE.md).
+
 > Первоначальный протокол шага 3 до уточнения интерфейса владельцем. Последующие изменения курса/модулей и актуальный прогон: [COURSE_WORKFLOW_ACCEPTANCE.md](COURSE_WORKFLOW_ACCEPTANCE.md).
 
 # Шаг 3 — протокол приёмки, 08.11.2026
