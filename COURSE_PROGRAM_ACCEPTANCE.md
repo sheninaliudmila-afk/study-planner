@@ -1,3 +1,5 @@
+> Исторический протокол программы курса. Последующее заполнение, лекции и аудит: [LECTURE_DRAFT_ACCEPTANCE.md](LECTURE_DRAFT_ACCEPTANCE.md), [AUDIT_STATUS.md](AUDIT_STATUS.md).
+
 # Программа курса: проверка от 08.11.2026
 
 Основание: [последнее уточнение](requirements/course-program-2026-11-08.md). Ветка `stage3-goals-analytics-settings-2026-11-08`, [PR №2](https://github.com/sheninaliudmila-afk/study-planner/pull/2).

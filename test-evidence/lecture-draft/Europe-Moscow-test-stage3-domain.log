@@ -1,0 +1,21 @@
+✔ manual goal 0/50/100 and completion timestamp clears when reopened (4.020046ms)
+✔ milestones empty, partial, full; global nested IDs and invalid values rejected (1.342679ms)
+✔ tasks count only fully finished HW, branch progress includes partial HW; archived scopes excluded (0.789267ms)
+✔ future recurring materialized instances excluded, standalone scheduled future retained (0.792222ms)
+✔ hours use actual entries since createdAt, archived history counts, target caps at100, cutoff freezes (0.362195ms)
+✔ report splits midnight and paused segments with exact additivity; archive switch and scope filters (0.50556ms)
+✔ report counts materialized recurrence once and template never (7.435724ms)
+✔ merge adds records referring to local parents, keeps local duplicate and settings, input stays immutable (1.187326ms)
+✔ merge rejects cross-type collisions, dangling references, repeated IDs, future schema and malformed duplicates (1.33676ms)
+✔ undo restores removed subtree while preserving unrelated later edits and new records (0.929798ms)
+✔ undo rejects reused IDs, modified recurrence and timer conflicts without mutation (0.828286ms)
+✔ backup reminder at 7 days, dismissed local day, export/import baseline (7.297917ms)
+✔ search all text fields, case folding and archived toggle; empty results; filter and stable sorts (0.853083ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 34.256263
