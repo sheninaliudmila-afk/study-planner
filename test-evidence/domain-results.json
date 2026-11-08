@@ -1,0 +1,29 @@
+{
+  "sourceSHA256": "4c34de6333c9a4d82769c0fa0918cf2417aa995aeec023d9663d31784173ec36",
+  "results": [
+    {
+      "timezone": "UTC",
+      "tests": 23,
+      "passed": 23,
+      "failed": 0
+    },
+    {
+      "timezone": "Europe/Berlin",
+      "tests": 23,
+      "passed": 23,
+      "failed": 0
+    },
+    {
+      "timezone": "Europe/Moscow",
+      "tests": 23,
+      "passed": 23,
+      "failed": 0
+    },
+    {
+      "timezone": "Australia/Lord_Howe",
+      "tests": 23,
+      "passed": 23,
+      "failed": 0
+    }
+  ]
+}
