@@ -1,0 +1,14 @@
+✔ Moving course preserves every descendant, IDs, goal and former subject (4.531466ms)
+✔ Unavailable destination rejected before changing course (0.427744ms)
+✔ Course edit can change direction while retaining previous subject selection (0.367022ms)
+✔ Version2 correction moves existing filled course once and retains notes, dates and manual confirmations (6.006905ms)
+✔ 100000-character notes and storage links survive validate/export/migration/merge (6.922503ms)
+✔ Oversized notes, script/file links, embedded passwords and non-string links rejected (0.851541ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 25.58883

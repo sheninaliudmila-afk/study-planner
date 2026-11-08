@@ -1,3 +1,5 @@
+> Исторический протокол. Текущий аудит и комплект: [GROUPING_RELEASE_ACCEPTANCE.md](GROUPING_RELEASE_ACCEPTANCE.md).
+
 # Перенос курса, большие конспекты и сроки — приёмка 08.11.2026
 
 Требования: [course-notes-schedule-2026-11-08.md](requirements/course-notes-schedule-2026-11-08.md).

@@ -1,0 +1,12 @@
+'use strict';
+// Build a portable copy. Optional course programme belongs to the owner; never commit its output.
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),crypto=require('node:crypto');
+const [output,input]=process.argv.slice(2);if(!output)throw Error('Usage: node build-release.cjs /output/directory [/private/course-draft.json]');
+const root=__dirname,source=fs.readFileSync(path.join(root,'script.js'),'utf8'),style=fs.readFileSync(path.join(root,'style.css'),'utf8');let index=fs.readFileSync(path.join(root,'index.html'),'utf8');let programme=null;
+if(input){programme=JSON.parse(fs.readFileSync(input,'utf8'));const ctx={structuredClone,crypto:crypto.webcrypto,Date,URL};vm.createContext(ctx);vm.runInContext(source.split("$('#editorForm').addEventListener")[0]+'globalThis.check={initial,fillCourseDraft,validateState};})();',ctx);ctx.check.validateState(ctx.check.fillCourseDraft(ctx.check.initial(),programme).state);const data=JSON.stringify(programme).replaceAll('<','\\u003c');index=index.replace('<script src="script.js"',()=>'<script id="courseDrafts" type="application/json">'+data+'</script><script src="script.js"')}
+const portable=index.replace('<link rel="stylesheet" href="style.css">',()=>'<style>'+style+'</style>').replace('<script src="script.js" defer></script>',()=>'<script>'+source.replace(/<\/script/gi,()=>'<'+String.fromCharCode(92)+'/script')+'</script>');
+fs.mkdirSync(output,{recursive:true});for(const [name,content]of Object.entries({'index.html':index,'style.css':style,'script.js':source,'Study-planner.html':portable}))fs.writeFileSync(path.join(output,name),content);
+for(const name of ['START_HERE_RU.md','plan.md','AUDIT_STATUS.md','GROUPING_RELEASE_ACCEPTANCE.md'])if(fs.existsSync(path.join(root,name)))fs.copyFileSync(path.join(root,name),path.join(output,name));
+const report=path.join(root,'test-evidence/grouping-release/results.json');if(fs.existsSync(report))fs.copyFileSync(report,path.join(output,'test-results.json'));
+const hashes=Object.fromEntries(fs.readdirSync(output).filter(n=>n!=='SHA256.json'&&fs.statSync(path.join(output,n)).isFile()).map(n=>[n,crypto.createHash('sha256').update(fs.readFileSync(path.join(output,n))).digest('hex')]));fs.writeFileSync(path.join(output,'SHA256.json'),JSON.stringify(hashes,null,2)+'\n');
+console.log('Portable files built; optional programme validated; no browser records read or copied.');
