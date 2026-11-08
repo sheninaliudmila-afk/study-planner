@@ -1,0 +1,21 @@
+{
+  "url": "https://study-planner-coursework-public-20261108.fondlyric2.chatgpt.site/",
+  "anonymousRequest": true,
+  "files": {
+    "index.html": {
+      "status": 200,
+      "sha256": "ab1ee6592b56a27f99fdf54477790b7c3d5f77a2e063e5bd948efd4a3c889678",
+      "matchesTestedSource": true
+    },
+    "style.css": {
+      "status": 200,
+      "sha256": "f6bbbe1f9829c663fac99deaa037995209d834ac54673f869c0591a0c2ddad43",
+      "matchesTestedSource": true
+    },
+    "script.js": {
+      "status": 200,
+      "sha256": "c8bea13cef67b2d355a21fa6311c2398ace4aa4a7001da0b111da5987c651ac0",
+      "matchesTestedSource": true
+    }
+  }
+}

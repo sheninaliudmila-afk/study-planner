@@ -1,0 +1,24 @@
+{
+  "url": "https://study-planner-coursework-public-20261108.fondlyric2.chatgpt.site/",
+  "status": "succeeded",
+  "accessMode": "public",
+  "githubRepository": "sheninaliudmila-afk/study-planner",
+  "githubBranch": "main",
+  "mergedPullRequests": [
+    1,
+    2
+  ],
+  "runtimeChecksPassed": 637,
+  "privateDraftUnchanged": true,
+  "personalProgrammePublished": false,
+  "githubPagesEnabled": false,
+  "githubPagesAttempt": {
+    "status": 403,
+    "message": "Resource not accessible by integration"
+  },
+  "publicationChecks": [
+    "anonymous200AndExactRuntimeSHA256",
+    "anonymousBrowserCRUDAndReload",
+    "separateVisitorStorage"
+  ]
+}
