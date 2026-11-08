@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-08",
+  "account": "sheninaliudmila-afk",
+  "repository": "sheninaliudmila-afk/study-planner",
+  "branch": "migration/new-account-stage2-2026-11-08",
+  "remoteMainSHA": "fac27212cd833433643ac1e4cd6d5e8d787b96b3",
+  "profileVerified": true,
+  "repositoryReadVerified": true,
+  "writeVerified": true,
+  "branchCreated": true,
+  "pullRequestCreated": false,
+  "blocker": null,
+  "runtimeUnchanged": true,
+  "sourceSHA256": {
+    "index.html": "a2d8b5bade8c71fc35a25693a3ae4924b6286e80401260583a807b0f19c06aa6",
+    "style.css": "b259f417b7c71ff33d14b7a03b489967716bb4b3145e528340c014049183f479",
+    "script.js": "4c34de6333c9a4d82769c0fa0918cf2417aa995aeec023d9663d31784173ec36"
+  },
+  "priorTestChecks": 272,
+  "personalExportsIncluded": false,
+  "installationId": 179821942,
+  "uploadStatus": "in progress"
+}
