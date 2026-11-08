@@ -8,7 +8,7 @@
   "repositoryReadVerified": true,
   "writeVerified": true,
   "branchCreated": true,
-  "pullRequestCreated": false,
+  "pullRequestCreated": true,
   "blocker": null,
   "runtimeUnchanged": true,
   "sourceSHA256": {
@@ -18,6 +18,10 @@
   },
   "priorTestChecks": 272,
   "personalExportsIncluded": false,
-  "installationId": 179821942,
-  "uploadStatus": "in progress"
+  "uploadStatus": "uploaded and Git blob verified",
+  "pullRequestURL": "https://github.com/sheninaliudmila-afk/study-planner/pull/1",
+  "remoteFilesVerified": 30,
+  "mainChanged": false,
+  "published": false,
+  "sourceCommit": "7e2eb4eae0a9917ea553f048a3e74a9c8533451d"
 }

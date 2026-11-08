@@ -1,6 +1,6 @@
 # Инструкция Codex — Study Planner
 
-Текущий владелец GitHub: **sheninaliudmila-afk**. Рабочий репозиторий: https://github.com/sheninaliudmila-afk/study-planner. Не использовать прежний аккаунт для новых записей и не изменять Study_planner/Studu_plann.
+Текущий владелец GitHub: **sheninaliudmila-afk**. Рабочий репозиторий: https://github.com/sheninaliudmila-afk/study-planner. Текущий PR: https://github.com/sheninaliudmila-afk/study-planner/pull/1. Не использовать прежний аккаунт для новых записей и не изменять Study_planner/Studu_plann.
 
 ## Источник требований
 
