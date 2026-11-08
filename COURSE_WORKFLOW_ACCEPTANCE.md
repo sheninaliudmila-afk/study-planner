@@ -1,3 +1,5 @@
+> Протокол предыдущего уточнения курса и модулей. Последующее уточнение программы и актуальная регрессия — [COURSE_PROGRAM_ACCEPTANCE.md](COURSE_PROGRAM_ACCEPTANCE.md).
+
 # Курс → модули → занятия: протокол проверки, 08.11.2026
 
 Основание — [уточнения владельца](requirements/course-workflow-2026-11-08.md). Ветка `stage3-goals-analytics-settings-2026-11-08`, [PR №2](https://github.com/sheninaliudmila-afk/study-planner/pull/2), аккаунт `sheninaliudmila-afk`.
