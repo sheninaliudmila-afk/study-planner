@@ -3,8 +3,9 @@
 - **Владелец:** sheninaliudmila-afk.
 - **Выбранный репозиторий:** https://github.com/sheninaliudmila-afk/study-planner.
 - **Ветка переноса:** `migration/new-account-stage2-2026-11-08`.
+- **Последнее уточнение:** курс → модули → занятия; цель курса по полному плану, необязательный учёт времени. Текущий протокол — `COURSE_WORKFLOW_ACCEPTANCE.md`, результаты — `test-evidence/course-workflow/results.json`. Найденная личная структура хранится отдельным локальным комплектом и не включена в публичный GitHub.
 - **Готовность:** шаги 1–3 реализованы. Текущая ветка `stage3-goals-analytics-settings-2026-11-08`, отчёт `STAGE3_ACCEPTANCE.md`; шаг 4 не начат.
-- **Шаг 3:** [PR №2](https://github.com/sheninaliudmila-afk/study-planner/pull/2), черновик поверх ветки переноса, без слияния PR №1 и без публикации. Пройдено 369 проверок. Результаты проверок — `test-evidence/stage3/results.json`.
+- **Шаг 3:** [PR №2](https://github.com/sheninaliudmila-afk/study-planner/pull/2), черновик поверх ветки переноса, без слияния PR №1 и без публикации. Пройдено 431 проверка. Результаты проверок — `test-evidence/stage3/results.json`.
 - **Удалённое состояние:** все 30 файлов загружены и проверены в рабочей ветке; [PR №1](https://github.com/sheninaliudmila-afk/study-planner/pull/1) открыт как черновик. main с исходным README сохранён без изменений.
 - **Доступ:** профиль, чтение и запись подтверждены. GitHub App установлен; создание рабочей ветки успешно. Прежний отказ разрешений устранён.
 - **Другие репозитории:** Study_planner и Studu_plann не изменяются.

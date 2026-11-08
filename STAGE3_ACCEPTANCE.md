@@ -1,3 +1,5 @@
+> Первоначальный протокол шага 3 до уточнения интерфейса владельцем. Последующие изменения курса/модулей и актуальный прогон: [COURSE_WORKFLOW_ACCEPTANCE.md](COURSE_WORKFLOW_ACCEPTANCE.md).
+
 # Шаг 3 — протокол приёмки, 08.11.2026
 
 Ветка `stage3-goals-analytics-settings-2026-11-08`, репозиторий `sheninaliudmila-afk/study-planner`. Основа — готовый шаг 2 из PR №1. Шаг 3 предлагается [PR №2](https://github.com/sheninaliudmila-afk/study-planner/pull/2) в ветку шага 2; main и сайт не изменяются.
