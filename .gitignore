@@ -2,3 +2,4 @@ node_modules/
 test-results/
 test-results-stage2/
 *.zip
+test-results-stage3/

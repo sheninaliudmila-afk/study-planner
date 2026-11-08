@@ -1,0 +1,1331 @@
+{
+  "date": "2026-11-08T11:02:22.827517+00:00",
+  "repository": "sheninaliudmila-afk/study-planner",
+  "branch": "stage3-goals-analytics-settings-2026-11-08",
+  "sourceSHA256": {
+    "index.html": "ab1ee6592b56a27f99fdf54477790b7c3d5f77a2e063e5bd948efd4a3c889678",
+    "style.css": "a40bd93360b61c7bcee0d37a1ce47578f97b20d01917fa0ca3e9a79de3e428c9",
+    "script.js": "8860917a883ae38c64bf6df99c40b8544127c48ae57f3e9a06d02b34a2212886"
+  },
+  "browserGroupsPassed": 225,
+  "domainCasesPassed": 144,
+  "failed": 0,
+  "browserRuns": [
+    {
+      "suite": "stage1",
+      "browser": "chromium",
+      "version": "156.0.8078.79",
+      "sourceSHA256": {
+        "index.html": "ab1ee6592b56a27f99fdf54477790b7c3d5f77a2e063e5bd948efd4a3c889678",
+        "style.css": "a40bd93360b61c7bcee0d37a1ce47578f97b20d01917fa0ca3e9a79de3e428c9",
+        "script.js": "8860917a883ae38c64bf6df99c40b8544127c48ae57f3e9a06d02b34a2212886"
+      },
+      "results": [
+        {
+          "name": "First launch and reload: two directions without duplicates",
+          "status": "passed",
+          "ms": 476
+        },
+        {
+          "name": "Create subject and two independent teacher courses",
+          "status": "passed",
+          "ms": 749
+        },
+        {
+          "name": "Four session types and two homeworks per session; no topic homework button",
+          "status": "passed",
+          "ms": 1609
+        },
+        {
+          "name": "Checklist 0/75/100/75/100, timestamps, stable IDs and persistence",
+          "status": "passed",
+          "ms": 1062
+        },
+        {
+          "name": "Multiline text, literal HTML, safe URLs; unsafe URL rejected without losing draft",
+          "status": "passed",
+          "ms": 297
+        },
+        {
+          "name": "Move session across topics updates homework topicId, preserving other course",
+          "status": "passed",
+          "ms": 525
+        },
+        {
+          "name": "Tree collapse at every level, keyboard toggle, reload restores state",
+          "status": "passed",
+          "ms": 803
+        },
+        {
+          "name": "Sibling ordering and editing survive reload; independent course IDs",
+          "status": "passed",
+          "ms": 348
+        },
+        {
+          "name": "Archive inheritance, child restoration and archive deletion cancellation",
+          "status": "passed",
+          "ms": 1792
+        },
+        {
+          "name": "Export file and replace import: exact entities, archive, links, idle timer; preview counts",
+          "status": "passed",
+          "ms": 570
+        },
+        {
+          "name": "Invalid imports: syntax, future schema, orphan, duplicate IDs, URL, range, date and inconsistent progress",
+          "status": "passed",
+          "ms": 294
+        },
+        {
+          "name": "Session deletion cascades exactly its homeworks; confirmation and raw snapshot",
+          "status": "passed",
+          "ms": 438
+        },
+        {
+          "name": "Calendar: views, navigation, slot creation, overlaps, midnight in all views and deadlines",
+          "status": "passed",
+          "ms": 1116
+        },
+        {
+          "name": "Layout 320/375/390/768/1024/1440, touch sizes, modal focus and screenshots",
+          "status": "passed",
+          "ms": 1885
+        },
+        {
+          "name": "Quota failure preserves stored state and editable draft; no false saved status",
+          "status": "passed",
+          "ms": 232
+        },
+        {
+          "name": "Two actual tabs: external write blocks stale mutation",
+          "status": "passed",
+          "ms": 910
+        },
+        {
+          "name": "Corrupt and future local state exported byte-for-byte without overwrite",
+          "status": "passed",
+          "ms": 338
+        },
+        {
+          "name": "Storage denied: recovery UI without false success or uncaught errors",
+          "status": "passed",
+          "ms": 550
+        },
+        {
+          "name": "v1 migration: explicit choice, original export, exact snapshots, all old records and idempotence",
+          "status": "passed",
+          "ms": 1345
+        },
+        {
+          "name": "Migration quota failure leaves exact old document",
+          "status": "passed",
+          "ms": 298
+        },
+        {
+          "name": "Old backup import uses same migration and preserves unbound records",
+          "status": "passed",
+          "ms": 671
+        },
+        {
+          "name": "Historical 3 November reference: all records and fields preserved",
+          "status": "passed",
+          "ms": 201
+        },
+        {
+          "name": "Required parent/session validation and explicit selection; form errors retain input",
+          "status": "passed",
+          "ms": 1399
+        },
+        {
+          "name": "Create/edit direction, edit subject/topic, autosave text and stable link IDs",
+          "status": "passed",
+          "ms": 2644
+        },
+        {
+          "name": "Overdue only for incomplete homework; completed same deadline not overdue",
+          "status": "passed",
+          "ms": 666
+        },
+        {
+          "name": "Atomic main-write failure after successful import backup preserves original",
+          "status": "passed",
+          "ms": 701
+        },
+        {
+          "name": "Atomic main-write failure after migration backup preserves original; deterministic retry",
+          "status": "passed",
+          "ms": 521
+        },
+        {
+          "name": "Cascade delete each structural level and each archive/restore preserves own children",
+          "status": "passed",
+          "ms": 7054
+        },
+        {
+          "name": "All navigation screens are accessible; month view and collapsed mobile screenshot",
+          "status": "passed",
+          "ms": 4263
+        },
+        {
+          "name": "Complete and return session: completedAt changes, actual time is never fabricated",
+          "status": "passed",
+          "ms": 1198
+        },
+        {
+          "name": "No uncaught browser errors or app requests outside its three files",
+          "status": "passed",
+          "ms": 0
+        }
+      ]
+    },
+    {
+      "suite": "stage2",
+      "metrics": {
+        "firstInteractiveMs": 486.5,
+        "weekCalendarMs": 217.8000000002794
+      },
+      "browser": "chromium",
+      "version": "156.0.8078.79",
+      "sourceSHA256": {
+        "index.html": "ab1ee6592b56a27f99fdf54477790b7c3d5f77a2e063e5bd948efd4a3c889678",
+        "style.css": "a40bd93360b61c7bcee0d37a1ce47578f97b20d01917fa0ca3e9a79de3e428c9",
+        "script.js": "8860917a883ae38c64bf6df99c40b8544127c48ae57f3e9a06d02b34a2212886"
+      },
+      "results": [
+        {
+          "name": "Six dashboard widgets, empty states, empty goals block and quick editor",
+          "status": "passed",
+          "ms": 1451
+        },
+        {
+          "name": "Dashboard order buttons persist on reload; quick homework selects its session",
+          "status": "passed",
+          "ms": 1264
+        },
+        {
+          "name": "Create daily rule, lazy calendar instances, no duplicate persisted sessions across four views",
+          "status": "passed",
+          "ms": 2027
+        },
+        {
+          "name": "Weekly ISO weekdays, every N days/weeks and recurrence field validation",
+          "status": "passed",
+          "ms": 2524
+        },
+        {
+          "name": "Move one occurrence to another week, immutable key, cancel another occurrence only",
+          "status": "passed",
+          "ms": 2337
+        },
+        {
+          "name": "Completed occurrence and timer history survive editing and stopping series",
+          "status": "passed",
+          "ms": 3680
+        },
+        {
+          "name": "Timer 60 active + 30 paused + 30 active = 90 seconds after reload; segments retained",
+          "status": "passed",
+          "ms": 1332
+        },
+        {
+          "name": "Timer survives running reload, section changes and visibility; tick never writes storage",
+          "status": "passed",
+          "ms": 1938
+        },
+        {
+          "name": "Timer under one second creates no entry; cancellation needs confirmation and creates no time",
+          "status": "passed",
+          "ms": 1477
+        },
+        {
+          "name": "Timer 13-hour guard after reload: explicit confirmation before TimeEntry creation",
+          "status": "passed",
+          "ms": 1706
+        },
+        {
+          "name": "Two real tabs and simultaneous starts: one active timer, stale tab cannot overwrite",
+          "status": "passed",
+          "ms": 1495
+        },
+        {
+          "name": "Storage quota on timer finish retains active timer and creates no partial TimeEntry",
+          "status": "passed",
+          "ms": 1892
+        },
+        {
+          "name": "Export/import with recurrence and recorded time; active local timer blocks import, imported timer idle",
+          "status": "passed",
+          "ms": 2975
+        },
+        {
+          "name": "Inside-page reminders: 15-minute sessions, deadline today, dismiss without repeat in same page session",
+          "status": "passed",
+          "ms": 2256
+        },
+        {
+          "name": "Mobile/tablet/desktop dashboards, running timer and recurrence editor remain within viewport",
+          "status": "passed",
+          "ms": 3411
+        },
+        {
+          "name": "DST browser recurrence: missing/repeated local hour stays explicit and cannot start invalid timer",
+          "status": "passed",
+          "ms": 2194
+        },
+        {
+          "name": "Homework on virtual occurrence materializes exactly one session and survives later edits",
+          "status": "passed",
+          "ms": 2885
+        },
+        {
+          "name": "Completing inside occurrence editor then editing again does not turn it into a template",
+          "status": "passed",
+          "ms": 2736
+        },
+        {
+          "name": "Converting existing session into a series preserves original homework/time and ID",
+          "status": "passed",
+          "ms": 2425
+        },
+        {
+          "name": "Cancelling series confirmation leaves data and input intact",
+          "status": "passed",
+          "ms": 1997
+        },
+        {
+          "name": "Invalid recurrence/time backup rejected atomically before replacement",
+          "status": "passed",
+          "ms": 2349
+        },
+        {
+          "name": "Running timer survives closing a tab and opening a new tab on the same origin",
+          "status": "passed",
+          "ms": 2256
+        },
+        {
+          "name": "System clock moved backwards cannot create negative or fabricated time",
+          "status": "passed",
+          "ms": 1453
+        },
+        {
+          "name": "DST missing occurrence is visibly marked, cannot start timer and can be rescheduled",
+          "status": "passed",
+          "ms": 1854
+        },
+        {
+          "name": "DST repeated hour uses earlier instant and a visible ambiguity note",
+          "status": "passed",
+          "ms": 1238
+        },
+        {
+          "name": "Dashboard rolls over to the next local day without reload",
+          "status": "passed",
+          "ms": 951
+        },
+        {
+          "name": "Performance sample: 500 sessions, 500 homework, 1000 time entries, 100 series",
+          "status": "passed",
+          "ms": 2949
+        },
+        {
+          "name": "Persistent browser profile: active timer survives full browser close/reopen without fabricated entry",
+          "status": "passed",
+          "ms": 4295
+        },
+        {
+          "name": "No uncaught JS errors or application network calls beyond its three local files",
+          "status": "passed",
+          "ms": 0
+        }
+      ]
+    },
+    {
+      "suite": "stage3",
+      "metrics": {},
+      "browser": "chromium",
+      "version": "156.0.8078.79",
+      "sourceSHA256": {
+        "index.html": "ab1ee6592b56a27f99fdf54477790b7c3d5f77a2e063e5bd948efd4a3c889678",
+        "style.css": "a40bd93360b61c7bcee0d37a1ce47578f97b20d01917fa0ca3e9a79de3e428c9",
+        "script.js": "8860917a883ae38c64bf6df99c40b8544127c48ae57f3e9a06d02b34a2212886"
+      },
+      "results": [
+        {
+          "name": "Manual goal create/edit/autosave/reload/completion/reopen/delete/undo",
+          "status": "passed",
+          "ms": 2767
+        },
+        {
+          "name": "Goal validation retains draft; milestone IDs stable, checkbox updates dashboard, scope and hours edit",
+          "status": "passed",
+          "ms": 3104
+        },
+        {
+          "name": "Tasks goal follows session completion, excludes future recurring materialized records",
+          "status": "passed",
+          "ms": 2421
+        },
+        {
+          "name": "Hours goal and analytics use timer segments; filters and archive defaults",
+          "status": "passed",
+          "ms": 2510
+        },
+        {
+          "name": "Global search debounce, case, all text fields, literal HTML and archived read-only peek",
+          "status": "passed",
+          "ms": 1906
+        },
+        {
+          "name": "Homework sort/filters and calendar type/status/period filters reset without writes to records",
+          "status": "passed",
+          "ms": 2167
+        },
+        {
+          "name": "Merge preview/local-wins/new parent references/settings preserved; cancel and invalid file atomic",
+          "status": "passed",
+          "ms": 1824
+        },
+        {
+          "name": "Delete subtree Undo restores linked records and retains later additions; expiry and reload clear Undo",
+          "status": "passed",
+          "ms": 2635
+        },
+        {
+          "name": "Theme light/dark/system follows OS and persists; text contrast AA, controls touch44",
+          "status": "passed",
+          "ms": 1609
+        },
+        {
+          "name": "Backup after7days/dismiss until tomorrow/export reset; diagnostic and clear backup restore",
+          "status": "passed",
+          "ms": 2900
+        },
+        {
+          "name": "Quota failure on goal save retains original state and goal draft",
+          "status": "passed",
+          "ms": 1560
+        },
+        {
+          "name": "All new sections mobile320/390/tablet768/desktop1440, both themes, no horizontal overflow; screenshots",
+          "status": "passed",
+          "ms": 13295
+        },
+        {
+          "name": "Atomic deletion, Undo and merge failures preserve original state and backup",
+          "status": "passed",
+          "ms": 3043
+        },
+        {
+          "name": "Goal filters, scope names/numerators, search scopes and accessible light text contrast",
+          "status": "passed",
+          "ms": 2555
+        },
+        {
+          "name": "No uncaught JS errors or application network calls beyond its three local files",
+          "status": "passed",
+          "ms": 0
+        }
+      ]
+    },
+    {
+      "suite": "stage1",
+      "browser": "firefox",
+      "version": "153.0",
+      "sourceSHA256": {
+        "index.html": "ab1ee6592b56a27f99fdf54477790b7c3d5f77a2e063e5bd948efd4a3c889678",
+        "style.css": "a40bd93360b61c7bcee0d37a1ce47578f97b20d01917fa0ca3e9a79de3e428c9",
+        "script.js": "8860917a883ae38c64bf6df99c40b8544127c48ae57f3e9a06d02b34a2212886"
+      },
+      "results": [
+        {
+          "name": "First launch and reload: two directions without duplicates",
+          "status": "passed",
+          "ms": 584
+        },
+        {
+          "name": "Create subject and two independent teacher courses",
+          "status": "passed",
+          "ms": 1174
+        },
+        {
+          "name": "Four session types and two homeworks per session; no topic homework button",
+          "status": "passed",
+          "ms": 3097
+        },
+        {
+          "name": "Checklist 0/75/100/75/100, timestamps, stable IDs and persistence",
+          "status": "passed",
+          "ms": 2624
+        },
+        {
+          "name": "Multiline text, literal HTML, safe URLs; unsafe URL rejected without losing draft",
+          "status": "passed",
+          "ms": 799
+        },
+        {
+          "name": "Move session across topics updates homework topicId, preserving other course",
+          "status": "passed",
+          "ms": 1118
+        },
+        {
+          "name": "Tree collapse at every level, keyboard toggle, reload restores state",
+          "status": "passed",
+          "ms": 1554
+        },
+        {
+          "name": "Sibling ordering and editing survive reload; independent course IDs",
+          "status": "passed",
+          "ms": 569
+        },
+        {
+          "name": "Archive inheritance, child restoration and archive deletion cancellation",
+          "status": "passed",
+          "ms": 2356
+        },
+        {
+          "name": "Export file and replace import: exact entities, archive, links, idle timer; preview counts",
+          "status": "passed",
+          "ms": 803
+        },
+        {
+          "name": "Invalid imports: syntax, future schema, orphan, duplicate IDs, URL, range, date and inconsistent progress",
+          "status": "passed",
+          "ms": 725
+        },
+        {
+          "name": "Session deletion cascades exactly its homeworks; confirmation and raw snapshot",
+          "status": "passed",
+          "ms": 662
+        },
+        {
+          "name": "Calendar: views, navigation, slot creation, overlaps, midnight in all views and deadlines",
+          "status": "passed",
+          "ms": 1718
+        },
+        {
+          "name": "Layout 320/375/390/768/1024/1440, touch sizes, modal focus and screenshots",
+          "status": "passed",
+          "ms": 2382
+        },
+        {
+          "name": "Quota failure preserves stored state and editable draft; no false saved status",
+          "status": "passed",
+          "ms": 415
+        },
+        {
+          "name": "Two actual tabs: external write blocks stale mutation",
+          "status": "passed",
+          "ms": 1384
+        },
+        {
+          "name": "Corrupt and future local state exported byte-for-byte without overwrite",
+          "status": "passed",
+          "ms": 559
+        },
+        {
+          "name": "Storage denied: recovery UI without false success or uncaught errors",
+          "status": "passed",
+          "ms": 636
+        },
+        {
+          "name": "v1 migration: explicit choice, original export, exact snapshots, all old records and idempotence",
+          "status": "passed",
+          "ms": 1412
+        },
+        {
+          "name": "Migration quota failure leaves exact old document",
+          "status": "passed",
+          "ms": 408
+        },
+        {
+          "name": "Old backup import uses same migration and preserves unbound records",
+          "status": "passed",
+          "ms": 799
+        },
+        {
+          "name": "Historical 3 November reference: all records and fields preserved",
+          "status": "passed",
+          "ms": 389
+        },
+        {
+          "name": "Required parent/session validation and explicit selection; form errors retain input",
+          "status": "passed",
+          "ms": 1893
+        },
+        {
+          "name": "Create/edit direction, edit subject/topic, autosave text and stable link IDs",
+          "status": "passed",
+          "ms": 4600
+        },
+        {
+          "name": "Overdue only for incomplete homework; completed same deadline not overdue",
+          "status": "passed",
+          "ms": 703
+        },
+        {
+          "name": "Atomic main-write failure after successful import backup preserves original",
+          "status": "passed",
+          "ms": 867
+        },
+        {
+          "name": "Atomic main-write failure after migration backup preserves original; deterministic retry",
+          "status": "passed",
+          "ms": 1013
+        },
+        {
+          "name": "Cascade delete each structural level and each archive/restore preserves own children",
+          "status": "passed",
+          "ms": 8380
+        },
+        {
+          "name": "All navigation screens are accessible; month view and collapsed mobile screenshot",
+          "status": "passed",
+          "ms": 5203
+        },
+        {
+          "name": "Complete and return session: completedAt changes, actual time is never fabricated",
+          "status": "passed",
+          "ms": 1800
+        },
+        {
+          "name": "No uncaught browser errors or app requests outside its three files",
+          "status": "passed",
+          "ms": 0
+        }
+      ]
+    },
+    {
+      "suite": "stage2",
+      "metrics": {
+        "firstInteractiveMs": 419,
+        "weekCalendarMs": 176
+      },
+      "browser": "firefox",
+      "version": "153.0",
+      "sourceSHA256": {
+        "index.html": "ab1ee6592b56a27f99fdf54477790b7c3d5f77a2e063e5bd948efd4a3c889678",
+        "style.css": "a40bd93360b61c7bcee0d37a1ce47578f97b20d01917fa0ca3e9a79de3e428c9",
+        "script.js": "8860917a883ae38c64bf6df99c40b8544127c48ae57f3e9a06d02b34a2212886"
+      },
+      "results": [
+        {
+          "name": "Six dashboard widgets, empty states, empty goals block and quick editor",
+          "status": "passed",
+          "ms": 3395
+        },
+        {
+          "name": "Dashboard order buttons persist on reload; quick homework selects its session",
+          "status": "passed",
+          "ms": 2289
+        },
+        {
+          "name": "Create daily rule, lazy calendar instances, no duplicate persisted sessions across four views",
+          "status": "passed",
+          "ms": 3633
+        },
+        {
+          "name": "Weekly ISO weekdays, every N days/weeks and recurrence field validation",
+          "status": "passed",
+          "ms": 3150
+        },
+        {
+          "name": "Move one occurrence to another week, immutable key, cancel another occurrence only",
+          "status": "passed",
+          "ms": 3268
+        },
+        {
+          "name": "Completed occurrence and timer history survive editing and stopping series",
+          "status": "passed",
+          "ms": 4863
+        },
+        {
+          "name": "Timer 60 active + 30 paused + 30 active = 90 seconds after reload; segments retained",
+          "status": "passed",
+          "ms": 2333
+        },
+        {
+          "name": "Timer survives running reload, section changes and visibility; tick never writes storage",
+          "status": "passed",
+          "ms": 3073
+        },
+        {
+          "name": "Timer under one second creates no entry; cancellation needs confirmation and creates no time",
+          "status": "passed",
+          "ms": 3179
+        },
+        {
+          "name": "Timer 13-hour guard after reload: explicit confirmation before TimeEntry creation",
+          "status": "passed",
+          "ms": 5416
+        },
+        {
+          "name": "Two real tabs and simultaneous starts: one active timer, stale tab cannot overwrite",
+          "status": "passed",
+          "ms": 2391
+        },
+        {
+          "name": "Storage quota on timer finish retains active timer and creates no partial TimeEntry",
+          "status": "passed",
+          "ms": 2026
+        },
+        {
+          "name": "Export/import with recurrence and recorded time; active local timer blocks import, imported timer idle",
+          "status": "passed",
+          "ms": 3370
+        },
+        {
+          "name": "Inside-page reminders: 15-minute sessions, deadline today, dismiss without repeat in same page session",
+          "status": "passed",
+          "ms": 1882
+        },
+        {
+          "name": "Mobile/tablet/desktop dashboards, running timer and recurrence editor remain within viewport",
+          "status": "passed",
+          "ms": 3320
+        },
+        {
+          "name": "DST browser recurrence: missing/repeated local hour stays explicit and cannot start invalid timer",
+          "status": "passed",
+          "ms": 2273
+        },
+        {
+          "name": "Homework on virtual occurrence materializes exactly one session and survives later edits",
+          "status": "passed",
+          "ms": 3106
+        },
+        {
+          "name": "Completing inside occurrence editor then editing again does not turn it into a template",
+          "status": "passed",
+          "ms": 3559
+        },
+        {
+          "name": "Converting existing session into a series preserves original homework/time and ID",
+          "status": "passed",
+          "ms": 2582
+        },
+        {
+          "name": "Cancelling series confirmation leaves data and input intact",
+          "status": "passed",
+          "ms": 4211
+        },
+        {
+          "name": "Invalid recurrence/time backup rejected atomically before replacement",
+          "status": "passed",
+          "ms": 3088
+        },
+        {
+          "name": "Running timer survives closing a tab and opening a new tab on the same origin",
+          "status": "passed",
+          "ms": 1980
+        },
+        {
+          "name": "System clock moved backwards cannot create negative or fabricated time",
+          "status": "passed",
+          "ms": 1209
+        },
+        {
+          "name": "DST missing occurrence is visibly marked, cannot start timer and can be rescheduled",
+          "status": "passed",
+          "ms": 1330
+        },
+        {
+          "name": "DST repeated hour uses earlier instant and a visible ambiguity note",
+          "status": "passed",
+          "ms": 931
+        },
+        {
+          "name": "Dashboard rolls over to the next local day without reload",
+          "status": "passed",
+          "ms": 750
+        },
+        {
+          "name": "Performance sample: 500 sessions, 500 homework, 1000 time entries, 100 series",
+          "status": "passed",
+          "ms": 2779
+        },
+        {
+          "name": "Persistent browser profile: active timer survives full browser close/reopen without fabricated entry",
+          "status": "passed",
+          "ms": 7833
+        },
+        {
+          "name": "No uncaught JS errors or application network calls beyond its three local files",
+          "status": "passed",
+          "ms": 1
+        }
+      ]
+    },
+    {
+      "suite": "stage3",
+      "metrics": {},
+      "browser": "firefox",
+      "version": "153.0",
+      "sourceSHA256": {
+        "index.html": "ab1ee6592b56a27f99fdf54477790b7c3d5f77a2e063e5bd948efd4a3c889678",
+        "style.css": "a40bd93360b61c7bcee0d37a1ce47578f97b20d01917fa0ca3e9a79de3e428c9",
+        "script.js": "8860917a883ae38c64bf6df99c40b8544127c48ae57f3e9a06d02b34a2212886"
+      },
+      "results": [
+        {
+          "name": "Manual goal create/edit/autosave/reload/completion/reopen/delete/undo",
+          "status": "passed",
+          "ms": 3863
+        },
+        {
+          "name": "Goal validation retains draft; milestone IDs stable, checkbox updates dashboard, scope and hours edit",
+          "status": "passed",
+          "ms": 3156
+        },
+        {
+          "name": "Tasks goal follows session completion, excludes future recurring materialized records",
+          "status": "passed",
+          "ms": 2303
+        },
+        {
+          "name": "Hours goal and analytics use timer segments; filters and archive defaults",
+          "status": "passed",
+          "ms": 1918
+        },
+        {
+          "name": "Global search debounce, case, all text fields, literal HTML and archived read-only peek",
+          "status": "passed",
+          "ms": 1603
+        },
+        {
+          "name": "Homework sort/filters and calendar type/status/period filters reset without writes to records",
+          "status": "passed",
+          "ms": 1969
+        },
+        {
+          "name": "Merge preview/local-wins/new parent references/settings preserved; cancel and invalid file atomic",
+          "status": "passed",
+          "ms": 1478
+        },
+        {
+          "name": "Delete subtree Undo restores linked records and retains later additions; expiry and reload clear Undo",
+          "status": "passed",
+          "ms": 2474
+        },
+        {
+          "name": "Theme light/dark/system follows OS and persists; text contrast AA, controls touch44",
+          "status": "passed",
+          "ms": 1309
+        },
+        {
+          "name": "Backup after7days/dismiss until tomorrow/export reset; diagnostic and clear backup restore",
+          "status": "passed",
+          "ms": 3479
+        },
+        {
+          "name": "Quota failure on goal save retains original state and goal draft",
+          "status": "passed",
+          "ms": 1340
+        },
+        {
+          "name": "All new sections mobile320/390/tablet768/desktop1440, both themes, no horizontal overflow; screenshots",
+          "status": "passed",
+          "ms": 11606
+        },
+        {
+          "name": "Atomic deletion, Undo and merge failures preserve original state and backup",
+          "status": "passed",
+          "ms": 1991
+        },
+        {
+          "name": "Goal filters, scope names/numerators, search scopes and accessible light text contrast",
+          "status": "passed",
+          "ms": 1693
+        },
+        {
+          "name": "No uncaught JS errors or application network calls beyond its three local files",
+          "status": "passed",
+          "ms": 0
+        }
+      ]
+    },
+    {
+      "suite": "stage1",
+      "browser": "webkit",
+      "version": "26.5",
+      "sourceSHA256": {
+        "index.html": "ab1ee6592b56a27f99fdf54477790b7c3d5f77a2e063e5bd948efd4a3c889678",
+        "style.css": "a40bd93360b61c7bcee0d37a1ce47578f97b20d01917fa0ca3e9a79de3e428c9",
+        "script.js": "8860917a883ae38c64bf6df99c40b8544127c48ae57f3e9a06d02b34a2212886"
+      },
+      "results": [
+        {
+          "name": "First launch and reload: two directions without duplicates",
+          "status": "passed",
+          "ms": 706
+        },
+        {
+          "name": "Create subject and two independent teacher courses",
+          "status": "passed",
+          "ms": 2687
+        },
+        {
+          "name": "Four session types and two homeworks per session; no topic homework button",
+          "status": "passed",
+          "ms": 14896
+        },
+        {
+          "name": "Checklist 0/75/100/75/100, timestamps, stable IDs and persistence",
+          "status": "passed",
+          "ms": 3979
+        },
+        {
+          "name": "Multiline text, literal HTML, safe URLs; unsafe URL rejected without losing draft",
+          "status": "passed",
+          "ms": 902
+        },
+        {
+          "name": "Move session across topics updates homework topicId, preserving other course",
+          "status": "passed",
+          "ms": 4037
+        },
+        {
+          "name": "Tree collapse at every level, keyboard toggle, reload restores state",
+          "status": "passed",
+          "ms": 6792
+        },
+        {
+          "name": "Sibling ordering and editing survive reload; independent course IDs",
+          "status": "passed",
+          "ms": 1797
+        },
+        {
+          "name": "Archive inheritance, child restoration and archive deletion cancellation",
+          "status": "passed",
+          "ms": 2883
+        },
+        {
+          "name": "Export file and replace import: exact entities, archive, links, idle timer; preview counts",
+          "status": "passed",
+          "ms": 1315
+        },
+        {
+          "name": "Invalid imports: syntax, future schema, orphan, duplicate IDs, URL, range, date and inconsistent progress",
+          "status": "passed",
+          "ms": 668
+        },
+        {
+          "name": "Session deletion cascades exactly its homeworks; confirmation and raw snapshot",
+          "status": "passed",
+          "ms": 1514
+        },
+        {
+          "name": "Calendar: views, navigation, slot creation, overlaps, midnight in all views and deadlines",
+          "status": "passed",
+          "ms": 2608
+        },
+        {
+          "name": "Layout 320/375/390/768/1024/1440, touch sizes, modal focus and screenshots",
+          "status": "passed",
+          "ms": 7164
+        },
+        {
+          "name": "Quota failure preserves stored state and editable draft; no false saved status",
+          "status": "passed",
+          "ms": 2409
+        },
+        {
+          "name": "Two actual tabs: external write blocks stale mutation",
+          "status": "passed",
+          "ms": 5321
+        },
+        {
+          "name": "Corrupt and future local state exported byte-for-byte without overwrite",
+          "status": "passed",
+          "ms": 296
+        },
+        {
+          "name": "Storage denied: recovery UI without false success or uncaught errors",
+          "status": "passed",
+          "ms": 549
+        },
+        {
+          "name": "v1 migration: explicit choice, original export, exact snapshots, all old records and idempotence",
+          "status": "passed",
+          "ms": 2139
+        },
+        {
+          "name": "Migration quota failure leaves exact old document",
+          "status": "passed",
+          "ms": 286
+        },
+        {
+          "name": "Old backup import uses same migration and preserves unbound records",
+          "status": "passed",
+          "ms": 1180
+        },
+        {
+          "name": "Historical 3 November reference: all records and fields preserved",
+          "status": "passed",
+          "ms": 297
+        },
+        {
+          "name": "Required parent/session validation and explicit selection; form errors retain input",
+          "status": "passed",
+          "ms": 2798
+        },
+        {
+          "name": "Create/edit direction, edit subject/topic, autosave text and stable link IDs",
+          "status": "passed",
+          "ms": 15102
+        },
+        {
+          "name": "Overdue only for incomplete homework; completed same deadline not overdue",
+          "status": "passed",
+          "ms": 709
+        },
+        {
+          "name": "Atomic main-write failure after successful import backup preserves original",
+          "status": "passed",
+          "ms": 1032
+        },
+        {
+          "name": "Atomic main-write failure after migration backup preserves original; deterministic retry",
+          "status": "passed",
+          "ms": 332
+        },
+        {
+          "name": "Cascade delete each structural level and each archive/restore preserves own children",
+          "status": "passed",
+          "ms": 15973
+        },
+        {
+          "name": "All navigation screens are accessible; month view and collapsed mobile screenshot",
+          "status": "passed",
+          "ms": 4686
+        },
+        {
+          "name": "Complete and return session: completedAt changes, actual time is never fabricated",
+          "status": "passed",
+          "ms": 2610
+        },
+        {
+          "name": "No uncaught browser errors or app requests outside its three files",
+          "status": "passed",
+          "ms": 0
+        }
+      ]
+    },
+    {
+      "suite": "stage2",
+      "metrics": {
+        "firstInteractiveMs": 237,
+        "weekCalendarMs": 121
+      },
+      "browser": "webkit",
+      "version": "26.5",
+      "sourceSHA256": {
+        "index.html": "ab1ee6592b56a27f99fdf54477790b7c3d5f77a2e063e5bd948efd4a3c889678",
+        "style.css": "a40bd93360b61c7bcee0d37a1ce47578f97b20d01917fa0ca3e9a79de3e428c9",
+        "script.js": "8860917a883ae38c64bf6df99c40b8544127c48ae57f3e9a06d02b34a2212886"
+      },
+      "results": [
+        {
+          "name": "Six dashboard widgets, empty states, empty goals block and quick editor",
+          "status": "passed",
+          "ms": 1594
+        },
+        {
+          "name": "Dashboard order buttons persist on reload; quick homework selects its session",
+          "status": "passed",
+          "ms": 2205
+        },
+        {
+          "name": "Create daily rule, lazy calendar instances, no duplicate persisted sessions across four views",
+          "status": "passed",
+          "ms": 2612
+        },
+        {
+          "name": "Weekly ISO weekdays, every N days/weeks and recurrence field validation",
+          "status": "passed",
+          "ms": 2399
+        },
+        {
+          "name": "Move one occurrence to another week, immutable key, cancel another occurrence only",
+          "status": "passed",
+          "ms": 2738
+        },
+        {
+          "name": "Completed occurrence and timer history survive editing and stopping series",
+          "status": "passed",
+          "ms": 7538
+        },
+        {
+          "name": "Timer 60 active + 30 paused + 30 active = 90 seconds after reload; segments retained",
+          "status": "passed",
+          "ms": 2798
+        },
+        {
+          "name": "Timer survives running reload, section changes and visibility; tick never writes storage",
+          "status": "passed",
+          "ms": 1490
+        },
+        {
+          "name": "Timer under one second creates no entry; cancellation needs confirmation and creates no time",
+          "status": "passed",
+          "ms": 2544
+        },
+        {
+          "name": "Timer 13-hour guard after reload: explicit confirmation before TimeEntry creation",
+          "status": "passed",
+          "ms": 1579
+        },
+        {
+          "name": "Two real tabs and simultaneous starts: one active timer, stale tab cannot overwrite",
+          "status": "passed",
+          "ms": 1554
+        },
+        {
+          "name": "Storage quota on timer finish retains active timer and creates no partial TimeEntry",
+          "status": "passed",
+          "ms": 1170
+        },
+        {
+          "name": "Export/import with recurrence and recorded time; active local timer blocks import, imported timer idle",
+          "status": "passed",
+          "ms": 2569
+        },
+        {
+          "name": "Inside-page reminders: 15-minute sessions, deadline today, dismiss without repeat in same page session",
+          "status": "passed",
+          "ms": 1644
+        },
+        {
+          "name": "Mobile/tablet/desktop dashboards, running timer and recurrence editor remain within viewport",
+          "status": "passed",
+          "ms": 2204
+        },
+        {
+          "name": "DST browser recurrence: missing/repeated local hour stays explicit and cannot start invalid timer",
+          "status": "passed",
+          "ms": 1624
+        },
+        {
+          "name": "Homework on virtual occurrence materializes exactly one session and survives later edits",
+          "status": "passed",
+          "ms": 1930
+        },
+        {
+          "name": "Completing inside occurrence editor then editing again does not turn it into a template",
+          "status": "passed",
+          "ms": 1794
+        },
+        {
+          "name": "Converting existing session into a series preserves original homework/time and ID",
+          "status": "passed",
+          "ms": 1970
+        },
+        {
+          "name": "Cancelling series confirmation leaves data and input intact",
+          "status": "passed",
+          "ms": 2545
+        },
+        {
+          "name": "Invalid recurrence/time backup rejected atomically before replacement",
+          "status": "passed",
+          "ms": 2324
+        },
+        {
+          "name": "Running timer survives closing a tab and opening a new tab on the same origin",
+          "status": "passed",
+          "ms": 1655
+        },
+        {
+          "name": "System clock moved backwards cannot create negative or fabricated time",
+          "status": "passed",
+          "ms": 843
+        },
+        {
+          "name": "DST missing occurrence is visibly marked, cannot start timer and can be rescheduled",
+          "status": "passed",
+          "ms": 774
+        },
+        {
+          "name": "DST repeated hour uses earlier instant and a visible ambiguity note",
+          "status": "passed",
+          "ms": 619
+        },
+        {
+          "name": "Dashboard rolls over to the next local day without reload",
+          "status": "passed",
+          "ms": 444
+        },
+        {
+          "name": "Performance sample: 500 sessions, 500 homework, 1000 time entries, 100 series",
+          "status": "passed",
+          "ms": 1647
+        },
+        {
+          "name": "Persistent browser profile: active timer survives full browser close/reopen without fabricated entry",
+          "status": "passed",
+          "ms": 1754
+        },
+        {
+          "name": "No uncaught JS errors or application network calls beyond its three local files",
+          "status": "passed",
+          "ms": 0
+        }
+      ]
+    },
+    {
+      "suite": "stage3",
+      "metrics": {},
+      "browser": "webkit",
+      "version": "26.5",
+      "sourceSHA256": {
+        "index.html": "ab1ee6592b56a27f99fdf54477790b7c3d5f77a2e063e5bd948efd4a3c889678",
+        "style.css": "a40bd93360b61c7bcee0d37a1ce47578f97b20d01917fa0ca3e9a79de3e428c9",
+        "script.js": "8860917a883ae38c64bf6df99c40b8544127c48ae57f3e9a06d02b34a2212886"
+      },
+      "results": [
+        {
+          "name": "Manual goal create/edit/autosave/reload/completion/reopen/delete/undo",
+          "status": "passed",
+          "ms": 1485
+        },
+        {
+          "name": "Goal validation retains draft; milestone IDs stable, checkbox updates dashboard, scope and hours edit",
+          "status": "passed",
+          "ms": 2386
+        },
+        {
+          "name": "Tasks goal follows session completion, excludes future recurring materialized records",
+          "status": "passed",
+          "ms": 1970
+        },
+        {
+          "name": "Hours goal and analytics use timer segments; filters and archive defaults",
+          "status": "passed",
+          "ms": 1672
+        },
+        {
+          "name": "Global search debounce, case, all text fields, literal HTML and archived read-only peek",
+          "status": "passed",
+          "ms": 925
+        },
+        {
+          "name": "Homework sort/filters and calendar type/status/period filters reset without writes to records",
+          "status": "passed",
+          "ms": 1354
+        },
+        {
+          "name": "Merge preview/local-wins/new parent references/settings preserved; cancel and invalid file atomic",
+          "status": "passed",
+          "ms": 1104
+        },
+        {
+          "name": "Delete subtree Undo restores linked records and retains later additions; expiry and reload clear Undo",
+          "status": "passed",
+          "ms": 1834
+        },
+        {
+          "name": "Theme light/dark/system follows OS and persists; text contrast AA, controls touch44",
+          "status": "passed",
+          "ms": 912
+        },
+        {
+          "name": "Backup after7days/dismiss until tomorrow/export reset; diagnostic and clear backup restore",
+          "status": "passed",
+          "ms": 1711
+        },
+        {
+          "name": "Quota failure on goal save retains original state and goal draft",
+          "status": "passed",
+          "ms": 894
+        },
+        {
+          "name": "All new sections mobile320/390/tablet768/desktop1440, both themes, no horizontal overflow; screenshots",
+          "status": "passed",
+          "ms": 10568
+        },
+        {
+          "name": "Atomic deletion, Undo and merge failures preserve original state and backup",
+          "status": "passed",
+          "ms": 1589
+        },
+        {
+          "name": "Goal filters, scope names/numerators, search scopes and accessible light text contrast",
+          "status": "passed",
+          "ms": 1361
+        },
+        {
+          "name": "No uncaught JS errors or application network calls beyond its three local files",
+          "status": "passed",
+          "ms": 0
+        }
+      ]
+    }
+  ],
+  "domainRuns": [
+    {
+      "timezone": "UTC",
+      "suite": "test-stage2-domain.cjs",
+      "exitCode": 0,
+      "log": "UTC-test-stage2-domain.log",
+      "passed": 23
+    },
+    {
+      "timezone": "UTC",
+      "suite": "test-stage3-domain.cjs",
+      "exitCode": 0,
+      "log": "UTC-test-stage3-domain.log",
+      "passed": 13
+    },
+    {
+      "timezone": "Europe/Berlin",
+      "suite": "test-stage2-domain.cjs",
+      "exitCode": 0,
+      "log": "Europe-Berlin-test-stage2-domain.log",
+      "passed": 23
+    },
+    {
+      "timezone": "Europe/Berlin",
+      "suite": "test-stage3-domain.cjs",
+      "exitCode": 0,
+      "log": "Europe-Berlin-test-stage3-domain.log",
+      "passed": 13
+    },
+    {
+      "timezone": "Europe/Moscow",
+      "suite": "test-stage2-domain.cjs",
+      "exitCode": 0,
+      "log": "Europe-Moscow-test-stage2-domain.log",
+      "passed": 23
+    },
+    {
+      "timezone": "Europe/Moscow",
+      "suite": "test-stage3-domain.cjs",
+      "exitCode": 0,
+      "log": "Europe-Moscow-test-stage3-domain.log",
+      "passed": 13
+    },
+    {
+      "timezone": "Australia/Lord_Howe",
+      "suite": "test-stage2-domain.cjs",
+      "exitCode": 0,
+      "log": "Australia-Lord_Howe-test-stage2-domain.log",
+      "passed": 23
+    },
+    {
+      "timezone": "Australia/Lord_Howe",
+      "suite": "test-stage3-domain.cjs",
+      "exitCode": 0,
+      "log": "Australia-Lord_Howe-test-stage3-domain.log",
+      "passed": 13
+    }
+  ],
+  "environment": "Linux; isolated Playwright contexts; synthetic fixtures; historical export tested only offline in isolated context, never committed",
+  "notAutomated": [
+    "Physical iPhone Safari/VoiceOver and user ergonomics",
+    "Actual file persisted to user-chosen device folder",
+    "Direct file:// runtime (blocked by managed Chromium policy)"
+  ],
+  "mainChanged": false,
+  "published": false,
+  "step4Completed": false,
+  "totalPassed": 369
+}
